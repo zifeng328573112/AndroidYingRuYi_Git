@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fx678.zhongyinghuijin.finace"
+    android:versionCode="2"
+    android:versionName="1.0.3" >
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="joey.present.view.LoginView"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.LogoView"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="joey.present.view.ZhiBoLogin"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.ZhiBoRoomActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.StartView"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.CalendarView"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.ZhiBoDaTing"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.ZhiBoInfoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.SelectView"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.Login_CeLue"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.InforDetailView_2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.MainTab"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.MainView"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.MoNiDaSai_AnaltstsWebView"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.My_Daliog"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.Item_LOGO"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.TransView"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.ZhongYingHuiJin_LOGO"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.NewsView"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.GuanYuWoMen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.InforDetailView"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.OptionalView"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.PriceView"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.tradingstrategyNewView"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.PriceViewTTJ"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.PriceViewGG"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.SystemView"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.DetailTab"
+            android:screenOrientation="portrait" >
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" >
+                </action>
+
+                <category android:name="android.intent.category.LAUNCHER" >
+                </category>
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="joey.present.view.TimeDataView"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.KLineView"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.TimeDetailView"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.FenbiView"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.WebView"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="joey.present.view.AnaltstsWebView"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!--
+             <service
+            android:name=".NewsOnTopService"
+            android:enabled="true" />
+        -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5175f48456240b978e000478" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="fx678app" />
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_LOGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>

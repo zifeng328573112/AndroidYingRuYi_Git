@@ -1,0 +1,134 @@
+# view res/layout/head.xml #generated:79
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:161
+-keep class joey.present.view.AnaltstsWebView { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class joey.present.view.CalendarView { <init>(...); }
+
+# view AndroidManifest.xml #generated:127
+-keep class joey.present.view.DetailTab { <init>(...); }
+
+# view AndroidManifest.xml #generated:153
+-keep class joey.present.view.FenbiView { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class joey.present.view.GuanYuWoMen { <init>(...); }
+
+# view AndroidManifest.xml #generated:99
+-keep class joey.present.view.InforDetailView { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class joey.present.view.InforDetailView_2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class joey.present.view.Item_LOGO { <init>(...); }
+
+# view AndroidManifest.xml #generated:145
+-keep class joey.present.view.KLineView { <init>(...); }
+
+# view AndroidManifest.xml #generated:12
+-keep class joey.present.view.LoginView { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class joey.present.view.Login_CeLue { <init>(...); }
+
+# view AndroidManifest.xml #generated:17
+-keep class joey.present.view.LogoView { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class joey.present.view.MainTab { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class joey.present.view.MainView { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class joey.present.view.MoNiDaSai_AnaltstsWebView { <init>(...); }
+
+# view res/layout/keyboardview.xml #generated:19
+-keep class joey.present.view.MyViewGroup { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class joey.present.view.My_Daliog { <init>(...); }
+
+# view AndroidManifest.xml #generated:91
+-keep class joey.present.view.NewsView { <init>(...); }
+
+# view AndroidManifest.xml #generated:103
+-keep class joey.present.view.OptionalView { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class joey.present.view.PriceView { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class joey.present.view.PriceViewGG { <init>(...); }
+
+# view AndroidManifest.xml #generated:115
+-keep class joey.present.view.PriceViewTTJ { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class joey.present.view.SelectView { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class joey.present.view.StartView { <init>(...); }
+
+# view AndroidManifest.xml #generated:123
+-keep class joey.present.view.SystemView { <init>(...); }
+
+# view AndroidManifest.xml #generated:141
+-keep class joey.present.view.TimeDataView { <init>(...); }
+
+# view AndroidManifest.xml #generated:149
+-keep class joey.present.view.TimeDetailView { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class joey.present.view.TransView { <init>(...); }
+
+# view AndroidManifest.xml #generated:157
+-keep class joey.present.view.WebView { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class joey.present.view.ZhiBoDaTing { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class joey.present.view.ZhiBoInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class joey.present.view.ZhiBoLogin { <init>(...); }
+
+# view AndroidManifest.xml #generated:31
+-keep class joey.present.view.ZhiBoRoomActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class joey.present.view.ZhongYingHuiJin_LOGO { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class joey.present.view.tradingstrategyNewView { <init>(...); }
+
+# view res/layout/detailtab.xml #generated:7
+-keep class joey.present.view.ui.AnimationTabHost { <init>(...); }
+
+# view res/layout/newsview.xml #generated:78
+-keep class joey.present.view.ui.MsgListView { <init>(...); }
+
+# view res/layout/zhibo_info.xml #generated:93
+# view res/layout/zhibo_room.xml #generated:99
+-keep class joey.present.view.ui.PullDownListView { <init>(...); }
+
+# view res/layout/calendarview.xml #generated:107
+# view res/layout/calendarview.xml #generated:206
+# view res/layout/optionalview.xml #generated:225
+# view res/layout/optionalview.xml #generated:76
+# view res/layout/priceview.xml #generated:218
+# view res/layout/priceview.xml #generated:69
+# view res/layout/priceviewgg.xml #generated:178
+# view res/layout/priceviewgg.xml #generated:69
+# view res/layout/priceviewttj.xml #generated:208
+# view res/layout/priceviewttj.xml #generated:69
+-keep class joey.present.view.ui.SyncHorizontalScrollView { <init>(...); }
+
+# onClick res/layout/mainview2.xml #generated:43
+# onClick res/layout/mainview2.xml #generated:55
+-keepclassmembers class * { *** onClick(...); }
+

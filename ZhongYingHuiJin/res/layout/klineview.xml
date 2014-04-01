@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/topbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/headerpagebg"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/btuback" />
+
+        <ImageButton
+            android:id="@+id/addbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/add" />
+
+        <TextView
+            android:id="@+id/detailname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/default4"
+            android:textColor="@color/black"
+            android:textSize="24sp" >
+        </TextView>
+    </RelativeLayout>
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/updownvalue"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_x="58dp"
+            android:layout_y="66dp"
+            android:gravity="center"
+            android:text="@string/defaultvalue"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/high"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="128dp"
+            android:layout_y="44dp"
+            android:text="高:"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/updownpecent"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_x="1dp"
+            android:layout_y="66dp"
+            android:gravity="center"
+            android:text="@string/defaultpercent"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/highvalue"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_x="156dp"
+            android:layout_y="44dp"
+            android:text="@string/defaultvalue"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="128dp"
+            android:layout_y="22dp"
+            android:text="开:"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/openvalue"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_x="156dp"
+            android:layout_y="22dp"
+            android:text="@string/defaultvalue"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/cjvalue"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_x="156dp"
+            android:layout_y="66dp"
+            android:text="@string/defaultvalue"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/cj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="128dp"
+            android:layout_y="66dp"
+            android:text="额:"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/lowvalue"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_x="250dp"
+            android:layout_y="44dp"
+            android:text="@string/defaultvalue"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/dayvalue"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_x="250dp"
+            android:layout_y="66dp"
+            android:text="@string/defaulttime"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="218dp"
+            android:layout_y="66dp"
+            android:text="时:"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="218dp"
+            android:layout_y="22dp"
+            android:text="收:"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/low"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="218dp"
+            android:layout_y="44dp"
+            android:text="低:"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/closevalue"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_x="250dp"
+            android:layout_y="22dp"
+            android:text="@string/defaultvalue"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/nowvalue"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="22dp"
+            android:editable="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:text="@string/defaultvalue"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </AbsoluteLayout>
+
+    <RelativeLayout
+        android:id="@+id/hsvnavll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <HorizontalScrollView
+            android:id="@+id/ktypescoll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/indexSel"
+            android:scrollbarSize="0.0sp"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/scrolllayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/daytype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dip"
+                    android:background="@drawable/graybluebut"
+                    android:text="@string/daytype"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/weektype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dip"
+                    android:background="@drawable/graybluebut"
+                    android:text="@string/weektype"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/montype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dip"
+                    android:background="@drawable/graybluebut"
+                    android:text="@string/montype"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/type5m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dip"
+                    android:background="@drawable/graybluebut"
+                    android:text="@string/type5m"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/type15m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dip"
+                    android:background="@drawable/graybluebut"
+                    android:text="@string/type15m"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/type30m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dip"
+                    android:background="@drawable/graybluebut"
+                    android:text="@string/type30m"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/type60m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dip"
+                    android:background="@drawable/graybluebut"
+                    android:text="@string/type60m"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <Button
+            android:id="@+id/indexSel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/btuzhibiao" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/klinelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/increase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dip"
+            android:layout_toLeftOf="@+id/narrow"
+            android:background="@drawable/increase" />
+
+        <ImageButton
+            android:id="@+id/narrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="25dip"
+            android:layout_marginRight="14dip"
+            android:layout_marginTop="14dip"
+            android:background="@drawable/narrow" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dip"
+            android:layout_toLeftOf="@+id/point"
+            android:background="@drawable/point2" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dip"
+            android:layout_marginLeft="8dip"
+            android:background="@drawable/point1" >
+        </ImageView>
+    </RelativeLayout>
+
+</LinearLayout>

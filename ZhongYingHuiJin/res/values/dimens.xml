@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="yellowbar_height">40dp</dimen>
+    <dimen name="price_item_text">18sp</dimen>
+    <dimen name="price_item_height">40dp</dimen>
+    <dimen name="chat_editext_tb">8dp</dimen>
+
+</resources>

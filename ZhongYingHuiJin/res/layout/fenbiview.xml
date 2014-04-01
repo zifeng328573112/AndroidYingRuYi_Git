@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/topbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/headerpagebg"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/btuback" />
+
+        <ImageButton
+            android:id="@+id/addbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/add" />
+
+        <TextView
+            android:id="@+id/detailname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/default4"
+            android:textColor="@color/black"
+            android:textSize="24sp" >
+        </TextView>
+    </RelativeLayout>
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/evalue"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_x="156dp"
+            android:layout_y="66dp"
+            android:gravity="left"
+            android:text="0"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/closevalue"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_x="250dp"
+            android:layout_y="22dp"
+            android:text="0.00"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/timenow"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_x="250dp"
+            android:layout_y="66dp"
+            android:text="00:00:00"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="218dp"
+            android:layout_y="66dp"
+            android:text="时:"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="218dp"
+            android:layout_y="22dp"
+            android:text="收:"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="128dp"
+            android:layout_y="22dp"
+            android:text="开:"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/high"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="128dp"
+            android:layout_y="44dp"
+            android:text="高:"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/low"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="218dp"
+            android:layout_y="44dp"
+            android:text="低:"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/highvalue"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_x="156dp"
+            android:layout_y="44dp"
+            android:gravity="left"
+            android:text="0.00"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/lowvalue"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_x="250dp"
+            android:layout_y="44dp"
+            android:text="0.00"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/nowvalue"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="22dp"
+            android:editable="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:text="@string/defaultvalue"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/updownpecent"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_x="1dp"
+            android:layout_y="66dp"
+            android:gravity="center"
+            android:text="@string/defaultpercent"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/updownvalue"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_x="58dp"
+            android:layout_y="66dp"
+            android:gravity="center"
+            android:text="@string/defaultvalue"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="128dp"
+            android:layout_y="66dp"
+            android:text="额:"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/openvalue"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_x="156dp"
+            android:layout_y="22dp"
+            android:gravity="left"
+            android:text="0.00"
+            android:textColor="@color/white" />
+    </AbsoluteLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/head"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dip"
+            android:layout_marginRight="30dip"
+            android:gravity="center"
+            android:text="@string/fenbi_time"
+            android:textColor="@color/white"
+            android:textSize="18dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="45dip"
+            android:layout_marginRight="30dip"
+            android:gravity="center"
+            android:text="@string/fenbi_price"
+            android:textColor="@color/white"
+            android:textSize="18dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dip"
+            android:layout_marginRight="30dip"
+            android:gravity="center"
+            android:text="@string/fenbi_volume"
+            android:textColor="@color/white"
+            android:textSize="18dip" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/fenbiListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="#FFFFFF"
+        android:fastScrollEnabled="false"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout>
