@@ -112,7 +112,6 @@
 # view res/layout/newsview.xml #generated:78
 -keep class joey.present.view.ui.MsgListView { <init>(...); }
 
-# view res/layout/zhibo_info.xml #generated:93
 # view res/layout/zhibo_room.xml #generated:99
 -keep class joey.present.view.ui.PullDownListView { <init>(...); }
 

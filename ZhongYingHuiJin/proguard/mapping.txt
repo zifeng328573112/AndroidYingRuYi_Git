@@ -3533,33 +3533,34 @@ joey.present.view.ZhiBoDaTing$4 -> joey.present.view.hi:
     joey.present.view.ZhiBoDaTing this$0 -> a
     void onClick(android.view.View) -> onClick
 joey.present.view.ZhiBoInfoActivity -> joey.present.view.ZhiBoInfoActivity:
-    java.util.List messageList -> b
-    joey.present.util.Util util -> c
-    java.util.Timer timer -> a
-    joey.present.view.ZhiBoInfoActivity$ZhiBoChatAdapter chatAdapter -> d
-    android.widget.RelativeLayout chatRlBottom -> e
-    android.widget.TextView chatTitle -> f
-    android.widget.EditText chatInput -> g
-    android.widget.ListView chatListView -> h
-    android.widget.Button chatRightbtn -> i
-    android.widget.Button chatSendButton -> j
-    android.widget.ImageButton chatBackbtn -> k
-    java.lang.String contString -> l
-    java.lang.String roomId -> m
-    java.lang.String roomName -> n
-    java.lang.String status -> o
-    java.lang.String chatLogin -> p
-    java.lang.String chatRealname -> q
-    java.lang.String chatGroup -> r
-    java.lang.String chatUserpic -> s
-    java.lang.String chatUserId -> t
-    java.lang.String string -> u
-    java.lang.String chatname -> v
-    java.lang.String chatcontent -> w
-    int refreshTime -> x
-    java.lang.Boolean isadapter -> y
-    android.app.ProgressDialog progressDialog -> z
-    android.os.Handler inHoseAppHandler -> A
+    int refreshTime -> b
+    java.lang.Boolean isadapter -> c
+    android.app.ProgressDialog chatProgressDialog -> d
+    java.util.List chatMessageList -> e
+    joey.present.util.Util chatUtil -> f
+    java.util.Timer chatTimer -> a
+    joey.present.view.ZhiBoInfoActivity$ZhiBoChatAdapter chatAdapter -> g
+    android.widget.RelativeLayout chatRlBottom -> h
+    android.widget.TextView chatTitle -> i
+    android.widget.EditText chatInput -> j
+    android.widget.ListView chatListView -> k
+    android.widget.Button chatRightbtn -> l
+    android.widget.Button chatSendButton -> m
+    android.widget.ImageButton chatBackbtn -> n
+    java.lang.String chatContString -> o
+    java.lang.String chatRoomId -> p
+    java.lang.String chatRoomName -> q
+    java.lang.String chatStatus -> r
+    java.lang.String chatLogin -> s
+    java.lang.String chatRealname -> t
+    java.lang.String chatGroup -> u
+    java.lang.String chatUserpic -> v
+    java.lang.String chatUserId -> w
+    java.lang.String chatString -> x
+    java.lang.String chatname -> y
+    java.lang.String chatcontent -> z
+    java.lang.String chatCount -> A
+    android.os.Handler chatHoseAppHandler -> B
     void onCreate(android.os.Bundle) -> onCreate
     void onClick(android.view.View) -> onClick
     void chatReturn(int) -> a
@@ -3569,20 +3570,23 @@ joey.present.view.ZhiBoInfoActivity -> joey.present.view.ZhiBoInfoActivity:
     android.widget.ListView access$2(joey.present.view.ZhiBoInfoActivity) -> b
     joey.present.view.ZhiBoInfoActivity$ZhiBoChatAdapter access$3(joey.present.view.ZhiBoInfoActivity) -> c
     java.lang.String access$4(joey.present.view.ZhiBoInfoActivity) -> d
-    java.lang.String access$5(joey.present.view.ZhiBoInfoActivity) -> e
-    java.lang.String access$6(joey.present.view.ZhiBoInfoActivity) -> f
-    void access$7(joey.present.view.ZhiBoInfoActivity,java.util.List) -> a
-    android.os.Handler access$8(joey.present.view.ZhiBoInfoActivity) -> g
-    android.app.ProgressDialog access$9(joey.present.view.ZhiBoInfoActivity) -> h
-    void access$10(joey.present.view.ZhiBoInfoActivity,java.lang.String) -> a
-    void access$11(joey.present.view.ZhiBoInfoActivity,java.lang.String) -> b
-    java.lang.String access$12(joey.present.view.ZhiBoInfoActivity) -> i
-    java.lang.String access$13(joey.present.view.ZhiBoInfoActivity) -> j
-    java.lang.String access$14(joey.present.view.ZhiBoInfoActivity) -> k
-    java.lang.String access$15(joey.present.view.ZhiBoInfoActivity) -> l
-    java.lang.String access$16(joey.present.view.ZhiBoInfoActivity) -> m
-    void access$17(joey.present.view.ZhiBoInfoActivity,java.lang.String) -> c
+    int access$5(joey.present.view.ZhiBoInfoActivity) -> e
+    void access$6(joey.present.view.ZhiBoInfoActivity,int) -> a
+    java.lang.String access$7(joey.present.view.ZhiBoInfoActivity) -> f
+    java.lang.String access$8(joey.present.view.ZhiBoInfoActivity) -> g
+    java.lang.String access$9(joey.present.view.ZhiBoInfoActivity) -> h
+    void access$10(joey.present.view.ZhiBoInfoActivity,java.util.List) -> a
+    android.os.Handler access$11(joey.present.view.ZhiBoInfoActivity) -> i
+    android.app.ProgressDialog access$12(joey.present.view.ZhiBoInfoActivity) -> j
+    void access$13(joey.present.view.ZhiBoInfoActivity,java.lang.String) -> a
+    void access$14(joey.present.view.ZhiBoInfoActivity,java.lang.String) -> b
+    java.lang.String access$15(joey.present.view.ZhiBoInfoActivity) -> k
+    java.lang.String access$16(joey.present.view.ZhiBoInfoActivity) -> l
+    java.lang.String access$17(joey.present.view.ZhiBoInfoActivity) -> m
     java.lang.String access$18(joey.present.view.ZhiBoInfoActivity) -> n
+    java.lang.String access$19(joey.present.view.ZhiBoInfoActivity) -> o
+    void access$20(joey.present.view.ZhiBoInfoActivity,java.lang.String) -> c
+    java.lang.String access$21(joey.present.view.ZhiBoInfoActivity) -> p
 joey.present.view.ZhiBoInfoActivity$1 -> joey.present.view.hj:
     joey.present.view.ZhiBoInfoActivity this$0 -> a
     void handleMessage(android.os.Message) -> handleMessage
@@ -3591,23 +3595,26 @@ joey.present.view.ZhiBoInfoActivity$2 -> joey.present.view.hk:
     void run() -> run
 joey.present.view.ZhiBoInfoActivity$3 -> joey.present.view.hl:
     joey.present.view.ZhiBoInfoActivity this$0 -> a
-    java.lang.CharSequence filter(java.lang.CharSequence,int,int,android.text.Spanned,int,int) -> filter
+    void run() -> run
 joey.present.view.ZhiBoInfoActivity$4 -> joey.present.view.hm:
     joey.present.view.ZhiBoInfoActivity this$0 -> a
-    void run() -> run
+    java.lang.CharSequence filter(java.lang.CharSequence,int,int,android.text.Spanned,int,int) -> filter
 joey.present.view.ZhiBoInfoActivity$5 -> joey.present.view.hn:
     joey.present.view.ZhiBoInfoActivity this$0 -> a
     void run() -> run
-joey.present.view.ZhiBoInfoActivity$MarketAppItemRun -> joey.present.view.ho:
+joey.present.view.ZhiBoInfoActivity$6 -> joey.present.view.ho:
     joey.present.view.ZhiBoInfoActivity this$0 -> a
     void run() -> run
-joey.present.view.ZhiBoInfoActivity$ViewHolder -> joey.present.view.hp:
+joey.present.view.ZhiBoInfoActivity$MarketAppItemRun -> joey.present.view.hp:
+    joey.present.view.ZhiBoInfoActivity this$0 -> a
+    void run() -> run
+joey.present.view.ZhiBoInfoActivity$ViewHolder -> joey.present.view.hq:
     android.widget.TextView chatContent -> a
     android.widget.TextView chatUserName -> b
     android.widget.ImageView chatUserHead -> c
     android.widget.Button chatReturn -> d
     java.lang.String chatId -> e
-joey.present.view.ZhiBoInfoActivity$ZhiBoChatAdapter -> joey.present.view.hq:
+joey.present.view.ZhiBoInfoActivity$ZhiBoChatAdapter -> joey.present.view.hr:
     java.util.List chatBean_a -> b
     android.content.Context chatText -> c
     android.view.LayoutInflater chatInflater -> d
@@ -3619,14 +3626,15 @@ joey.present.view.ZhiBoInfoActivity$ZhiBoChatAdapter -> joey.present.view.hq:
     int getViewTypeCount() -> getViewTypeCount
     android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
     joey.present.view.ZhiBoInfoActivity access$0(joey.present.view.ZhiBoInfoActivity$ZhiBoChatAdapter) -> a
-joey.present.view.ZhiBoInfoActivity$ZhiBoChatAdapter$1 -> joey.present.view.hr:
+joey.present.view.ZhiBoInfoActivity$ZhiBoChatAdapter$1 -> joey.present.view.hs:
     joey.present.view.ZhiBoInfoActivity$ZhiBoChatAdapter this$1 -> a
     int val$position -> b
     void onClick(android.view.View) -> onClick
-joey.present.view.ZhiBoInfoActivity$ZhiBoChatAdapter$ImagAsyncTask -> joey.present.view.hs:
+joey.present.view.ZhiBoInfoActivity$ZhiBoChatAdapter$ImagAsyncTask -> joey.present.view.ht:
     android.widget.ImageView chatUserHead -> b
     joey.present.view.ZhiBoInfoActivity$ZhiBoChatAdapter this$1 -> a
     android.graphics.Bitmap getImage(java.lang.String) -> a
+    android.graphics.Bitmap doInBackground(java.lang.String[]) -> a
     void onPostExecute(java.lang.Object) -> onPostExecute
     java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
 joey.present.view.ZhiBoLogin -> joey.present.view.ZhiBoLogin:
@@ -3646,10 +3654,10 @@ joey.present.view.ZhiBoLogin -> joey.present.view.ZhiBoLogin:
     java.lang.String access$1(joey.present.view.ZhiBoLogin) -> b
     java.lang.String access$2(joey.present.view.ZhiBoLogin) -> c
     joey.present.util.Util access$3(joey.present.view.ZhiBoLogin) -> d
-joey.present.view.ZhiBoLogin$1 -> joey.present.view.ht:
+joey.present.view.ZhiBoLogin$1 -> joey.present.view.hu:
     joey.present.view.ZhiBoLogin this$0 -> a
     void handleMessage(android.os.Message) -> handleMessage
-joey.present.view.ZhiBoLogin$2 -> joey.present.view.hu:
+joey.present.view.ZhiBoLogin$2 -> joey.present.view.hv:
     joey.present.view.ZhiBoLogin this$0 -> a
     void run() -> run
 joey.present.view.ZhiBoRoomActivity -> joey.present.view.ZhiBoRoomActivity:
@@ -3680,21 +3688,21 @@ joey.present.view.ZhiBoRoomActivity -> joey.present.view.ZhiBoRoomActivity:
     java.lang.String access$7(joey.present.view.ZhiBoRoomActivity) -> g
     java.lang.String access$8(joey.present.view.ZhiBoRoomActivity) -> h
     joey.present.util.Util access$9(joey.present.view.ZhiBoRoomActivity) -> i
-joey.present.view.ZhiBoRoomActivity$1 -> joey.present.view.hv:
+joey.present.view.ZhiBoRoomActivity$1 -> joey.present.view.hw:
     joey.present.view.ZhiBoRoomActivity this$0 -> a
     void handleMessage(android.os.Message) -> handleMessage
-joey.present.view.ZhiBoRoomActivity$2 -> joey.present.view.hw:
+joey.present.view.ZhiBoRoomActivity$2 -> joey.present.view.hx:
     joey.present.view.ZhiBoRoomActivity this$0 -> a
     void run() -> run
-joey.present.view.ZhiBoRoomActivity$Holder -> joey.present.view.hx:
+joey.present.view.ZhiBoRoomActivity$Holder -> joey.present.view.hy:
     android.widget.TextView paiming -> a
     android.widget.TextView mingcheng -> b
     android.widget.TextView guandian -> c
     android.widget.TextView renqi -> d
     android.widget.TextView zhuangtai -> e
-    android.widget.TextView caozuo -> f
+    android.widget.Button caozuo -> f
     joey.present.view.ZhiBoRoomActivity this$0 -> g
-joey.present.view.ZhiBoRoomActivity$MyAdapter -> joey.present.view.hy:
+joey.present.view.ZhiBoRoomActivity$MyAdapter -> joey.present.view.hz:
     android.content.Context context -> b
     java.util.ArrayList chatRoomBean -> c
     android.view.LayoutInflater inflater -> d
@@ -3705,19 +3713,22 @@ joey.present.view.ZhiBoRoomActivity$MyAdapter -> joey.present.view.hy:
     android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
     java.util.ArrayList access$0(joey.present.view.ZhiBoRoomActivity$MyAdapter) -> a
     joey.present.view.ZhiBoRoomActivity access$1(joey.present.view.ZhiBoRoomActivity$MyAdapter) -> b
-joey.present.view.ZhiBoRoomActivity$MyAdapter$1 -> joey.present.view.hz:
+joey.present.view.ZhiBoRoomActivity$MyAdapter$1 -> joey.present.view.ia:
     joey.present.view.ZhiBoRoomActivity$MyAdapter this$1 -> a
     int val$position -> b
     void onClick(android.view.View) -> onClick
+joey.present.view.ZhiBoRoomActivity$MyAdapter$1$1 -> joey.present.view.ib:
+    joey.present.view.ZhiBoRoomActivity$MyAdapter$1 this$2 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
 joey.present.view.ZhongYingHuiJin_LOGO -> joey.present.view.ZhongYingHuiJin_LOGO:
     android.widget.ImageButton backbtn -> a
     android.webkit.WebView wbLogo -> b
     void onCreate(android.os.Bundle) -> onCreate
     boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
-joey.present.view.ZhongYingHuiJin_LOGO$1 -> joey.present.view.ia:
+joey.present.view.ZhongYingHuiJin_LOGO$1 -> joey.present.view.ic:
     joey.present.view.ZhongYingHuiJin_LOGO this$0 -> a
     boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
-joey.present.view.ZhongYingHuiJin_LOGO$2 -> joey.present.view.ib:
+joey.present.view.ZhongYingHuiJin_LOGO$2 -> joey.present.view.id:
     joey.present.view.ZhongYingHuiJin_LOGO this$0 -> a
     void onClick(android.view.View) -> onClick
 joey.present.view.tradingstrategyNewView -> joey.present.view.tradingstrategyNewView:
@@ -3773,28 +3784,28 @@ joey.present.view.tradingstrategyNewView -> joey.present.view.tradingstrategyNew
     void access$14(joey.present.view.tradingstrategyNewView,joey.present.view.tradingstrategyNewView$ProgressThread) -> a
     joey.present.view.tradingstrategyNewView$ProgressThread access$15(joey.present.view.tradingstrategyNewView) -> l
     void access$16(joey.present.view.tradingstrategyNewView,android.widget.Button) -> a
-joey.present.view.tradingstrategyNewView$1 -> joey.present.view.ic:
+joey.present.view.tradingstrategyNewView$1 -> joey.present.view.ie:
     joey.present.view.tradingstrategyNewView this$0 -> a
     void handleMessage(android.os.Message) -> handleMessage
-joey.present.view.tradingstrategyNewView$2 -> joey.present.view.id:
+joey.present.view.tradingstrategyNewView$2 -> joey.present.view.if:
     joey.present.view.tradingstrategyNewView this$0 -> a
     void onClick(android.view.View) -> onClick
-joey.present.view.tradingstrategyNewView$3 -> joey.present.view.ie:
+joey.present.view.tradingstrategyNewView$3 -> joey.present.view.ig:
     joey.present.view.tradingstrategyNewView this$0 -> a
     void onClick(android.view.View) -> onClick
-joey.present.view.tradingstrategyNewView$4 -> joey.present.view.if:
+joey.present.view.tradingstrategyNewView$4 -> joey.present.view.ih:
     joey.present.view.tradingstrategyNewView this$0 -> a
     void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
-joey.present.view.tradingstrategyNewView$5 -> joey.present.view.ig:
+joey.present.view.tradingstrategyNewView$5 -> joey.present.view.ii:
     joey.present.view.tradingstrategyNewView this$0 -> a
     void onClick(android.view.View) -> onClick
-joey.present.view.tradingstrategyNewView$6 -> joey.present.view.ih:
+joey.present.view.tradingstrategyNewView$6 -> joey.present.view.ij:
     joey.present.view.tradingstrategyNewView this$0 -> a
     void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
-joey.present.view.tradingstrategyNewView$7 -> joey.present.view.ii:
+joey.present.view.tradingstrategyNewView$7 -> joey.present.view.ik:
     joey.present.view.tradingstrategyNewView this$0 -> a
     void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
-joey.present.view.tradingstrategyNewView$Myadapter -> joey.present.view.ij:
+joey.present.view.tradingstrategyNewView$Myadapter -> joey.present.view.il:
     joey.present.view.tradingstrategyNewView main -> b
     java.util.List list -> c
     joey.present.view.tradingstrategyNewView this$0 -> a
@@ -3802,7 +3813,7 @@ joey.present.view.tradingstrategyNewView$Myadapter -> joey.present.view.ij:
     int getCount() -> getCount
     java.lang.Object getItem(int) -> getItem
     long getItemId(int) -> getItemId
-joey.present.view.tradingstrategyNewView$ProgressThread -> joey.present.view.ik:
+joey.present.view.tradingstrategyNewView$ProgressThread -> joey.present.view.im:
     android.os.Handler mHandler -> a
     int mState -> b
     joey.present.view.tradingstrategyNewView this$0 -> c
@@ -3904,11 +3915,44 @@ joey.present.view.ui.PriceListView -> joey.present.view.ui.PriceListView:
     int mMinimumVelocity -> e
     int mMaximumVelocity -> f
     boolean outBound -> g
+joey.present.view.ui.PullDownListView -> joey.present.view.ui.PullDownListView:
+    java.lang.String TAG -> a
+    boolean isRecordPullDown -> b
+    boolean isRecordPullUp -> c
+    int startPullDownY -> d
+    int startPullUpY -> e
+    int firstItemIndex -> f
+    int lastItemIndex -> g
+    android.view.View mHeadView -> h
+    android.view.View mTailView -> i
+    int currentScrollState -> j
+    java.util.concurrent.ScheduledExecutorService schedulor -> k
+    android.os.Handler mHandler -> l
+    void init(boolean,boolean) -> a
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    void setPullDownState(boolean) -> a
+    void setPullUpState(boolean) -> b
+    void setPullType(int) -> a
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+    android.view.View access$0(joey.present.view.ui.PullDownListView) -> a
+    java.util.concurrent.ScheduledExecutorService access$1(joey.present.view.ui.PullDownListView) -> b
+    android.view.View access$2(joey.present.view.ui.PullDownListView) -> c
+    android.os.Handler access$3(joey.present.view.ui.PullDownListView) -> d
+joey.present.view.ui.PullDownListView$1 -> joey.present.view.ui.l:
+    joey.present.view.ui.PullDownListView this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+joey.present.view.ui.PullDownListView$2 -> joey.present.view.ui.m:
+    joey.present.view.ui.PullDownListView this$0 -> a
+    void run() -> run
+joey.present.view.ui.PullDownListView$3 -> joey.present.view.ui.n:
+    joey.present.view.ui.PullDownListView this$0 -> a
+    void run() -> run
 joey.present.view.ui.SyncHorizontalScrollView -> joey.present.view.ui.SyncHorizontalScrollView:
     android.view.View mView -> a
     void onScrollChanged(int,int,int,int) -> onScrollChanged
     void setScrollView(android.view.View) -> a
-joey.present.view.ui.ViewCache -> joey.present.view.ui.l:
+joey.present.view.ui.ViewCache -> joey.present.view.ui.o:
     android.view.View baseView -> a
     android.widget.TextView textView -> b
     android.widget.ImageView imageView -> c

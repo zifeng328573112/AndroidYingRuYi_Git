@@ -1722,10 +1722,10 @@ joey.present.view.ZhiBoDaTing:
     private java.lang.String NiCheng
 joey.present.view.ZhiBoInfoActivity:
     private static final java.lang.String TAG
-    private java.lang.String yhId
     public static final int SUCCESS
     public static final int NO
     public static final int REFRESH
+    private java.lang.String chatyhId
 joey.present.view.ZhiBoInfoActivity$IMsgViewType
 joey.present.view.tradingstrategyNewView:
     static final int PROGRESS_DIALOG
@@ -1766,6 +1766,12 @@ joey.present.view.ui.PriceListView:
     private boolean mIsInEdge
     private static final int FLING_MIN_DISTANCE
     private static final int FLING_MIN_VELOCITY
+joey.present.view.ui.PullDownListView:
+    private static final int PULL_DOWN_BACK_ACTION
+    private static final int PULL_UP_BACK_ACTION
+    private static final float PULL_FACTOR
+    private static final int PULL_BACK_REDUCE_STEP
+    private static final int PULL_BACK_TASK_PERIOD
 joey.present.view.ui.ZhiBoChatMeter
 org.slf4j.ILoggerFactory
 org.slf4j.IMarkerFactory

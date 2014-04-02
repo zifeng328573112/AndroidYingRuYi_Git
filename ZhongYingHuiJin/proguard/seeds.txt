@@ -226,6 +226,7 @@ joey.present.view.ZhiBoRoomActivity
 joey.present.view.ZhiBoRoomActivity: ZhiBoRoomActivity()
 joey.present.view.ZhiBoRoomActivity: void onClick(android.view.View)
 joey.present.view.ZhiBoRoomActivity$MyAdapter$1: void onClick(android.view.View)
+joey.present.view.ZhiBoRoomActivity$MyAdapter$1$1: void onClick(android.content.DialogInterface,int)
 joey.present.view.ZhongYingHuiJin_LOGO
 joey.present.view.ZhongYingHuiJin_LOGO: ZhongYingHuiJin_LOGO()
 joey.present.view.ZhongYingHuiJin_LOGO$2: void onClick(android.view.View)
@@ -240,6 +241,9 @@ joey.present.view.ui.MsgListView
 joey.present.view.ui.MsgListView: MsgListView(android.content.Context,android.util.AttributeSet)
 joey.present.view.ui.PriceListView
 joey.present.view.ui.PriceListView: PriceListView(android.content.Context,android.util.AttributeSet)
+joey.present.view.ui.PullDownListView
+joey.present.view.ui.PullDownListView: PullDownListView(android.content.Context,boolean,boolean)
+joey.present.view.ui.PullDownListView: PullDownListView(android.content.Context,android.util.AttributeSet)
 joey.present.view.ui.SyncHorizontalScrollView
 joey.present.view.ui.SyncHorizontalScrollView: SyncHorizontalScrollView(android.content.Context)
 joey.present.view.ui.SyncHorizontalScrollView: SyncHorizontalScrollView(android.content.Context,android.util.AttributeSet)
